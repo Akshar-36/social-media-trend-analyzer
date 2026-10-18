@@ -1,84 +1,84 @@
 {
-  "recommended_topic": "howwedwell",
+  "recommended_topic": "urbanjunglebloggers",
   "trending_topics": [
-    "howwedwell",
-    "howihome",
-    "smmakelifebeautiful"
+    "homesweethome",
+    "interior",
+    "finditstyleit"
   ],
   "recommended_hashtags": [
-    "#howwedwell",
-    "#designsponge",
-    "#cottagestyle",
-    "#interior123",
-    "#colourmyhome",
+    "#urbanjunglebloggers",
+    "#interiors",
     "#smmakelifebeautiful",
-    "#howihome",
-    "#interieur"
+    "#interior",
+    "#finditstyleit",
+    "#homesweethome",
+    "#cottagestyle",
+    "#thatsdarling"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#howwedwell",
-      "relevance": 0.5699171423912048,
-      "trend_score": 0.9822485207100592,
-      "trend_direction": "falling",
-      "historical_engagement": 0.04533216115648192,
-      "score": 0.8825585402384482
+      "hashtag": "#urbanjunglebloggers",
+      "relevance": 0.4466882348060608,
+      "trend_score": 0.6343195266272189,
+      "trend_direction": "rising",
+      "historical_engagement": 0.05157503040413996,
+      "score": 0.6602625308507171
     },
     {
-      "hashtag": "#designsponge",
-      "relevance": 0.4793339967727661,
-      "trend_score": 0.8520710059171598,
-      "trend_direction": "falling",
-      "historical_engagement": 0.0453644322696267,
-      "score": 0.674639912823501
+      "hashtag": "#interiors",
+      "relevance": 0.5110352039337158,
+      "trend_score": 0.7254437869822485,
+      "trend_direction": "stable",
+      "historical_engagement": 0.037064389009399866,
+      "score": 0.6195556743797856
+    },
+    {
+      "hashtag": "#smmakelifebeautiful",
+      "relevance": 0.4821197986602783,
+      "trend_score": 0.6834319526627219,
+      "trend_direction": "rising",
+      "historical_engagement": 0.04078330881846909,
+      "score": 0.5992501729341146
+    },
+    {
+      "hashtag": "#interior",
+      "relevance": 0.44836175441741943,
+      "trend_score": 0.7999999999999999,
+      "trend_direction": "rising",
+      "historical_engagement": 0.0399416101437515,
+      "score": 0.5775844221322192
+    },
+    {
+      "hashtag": "#finditstyleit",
+      "relevance": 0.4373766779899597,
+      "trend_score": 0.7357988165680472,
+      "trend_direction": "rising",
+      "historical_engagement": 0.041708736676048484,
+      "score": 0.5535486876688737
+    },
+    {
+      "hashtag": "#homesweethome",
+      "relevance": 0.4322775602340698,
+      "trend_score": 0.8384615384615384,
+      "trend_direction": "stable",
+      "historical_engagement": 0.038769453480517704,
+      "score": 0.5492812973524143
     },
     {
       "hashtag": "#cottagestyle",
       "relevance": 0.565259575843811,
-      "trend_score": 0.6449704142011834,
+      "trend_score": 0.36094674556213024,
       "trend_direction": "stable",
       "historical_engagement": 0.0363084669727242,
-      "score": 0.6376273732924834
+      "score": 0.5479762443968481
     },
     {
-      "hashtag": "#interior123",
-      "relevance": 0.5418214201927185,
-      "trend_score": 0.7218934911242604,
-      "trend_direction": "falling",
-      "historical_engagement": 0.036585622853461224,
-      "score": 0.6247604595235774
-    },
-    {
-      "hashtag": "#colourmyhome",
-      "relevance": 0.43193507194519043,
-      "trend_score": 0.6272189349112426,
-      "trend_direction": "falling",
-      "historical_engagement": 0.05352152921090684,
-      "score": 0.6238161540263427
-    },
-    {
-      "hashtag": "#smmakelifebeautiful",
-      "relevance": 0.4821198284626007,
-      "trend_score": 0.8579881656804734,
+      "hashtag": "#thatsdarling",
+      "relevance": 0.49232378602027893,
+      "trend_score": 0.5973372781065089,
       "trend_direction": "rising",
-      "historical_engagement": 0.04078330881846909,
-      "score": 0.6193424240351613
-    },
-    {
-      "hashtag": "#howihome",
-      "relevance": 0.40091612935066223,
-      "trend_score": 0.9112426035502958,
-      "trend_direction": "stable",
-      "historical_engagement": 0.04793954093680007,
-      "score": 0.5872292420260385
-    },
-    {
-      "hashtag": "#interieur",
-      "relevance": 0.46436187624931335,
-      "trend_score": 0.6863905325443787,
-      "trend_direction": "rising",
-      "historical_engagement": 0.04492836852860254,
-      "score": 0.585684827271792
+      "historical_engagement": 0.03819489441201515,
+      "score": 0.5448157522234809
     }
   ],
   "recommended_content_type": {
@@ -89,7 +89,7 @@
     }
   },
   "predicted_engagement": {
-    "value": 0.020376908570248705,
+    "value": 0.019074922786969227,
     "unit": "engagement_rate",
     "label": "Medium"
   },
@@ -108,5 +108,5 @@
     "category_match": "matched"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:09.911414+00:00"
+  "generated_at": "2026-10-10T21:12:30.552906+00:00"
 }

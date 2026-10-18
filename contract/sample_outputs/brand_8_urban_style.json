@@ -1,84 +1,84 @@
 {
-  "recommended_topic": "styleiswhat",
+  "recommended_topic": "fashiondiaries",
   "trending_topics": [
-    "styleiswhat",
     "fashiondiaries",
-    "londonblogger"
+    "ltkspring",
+    "wearthisnext"
   ],
   "recommended_hashtags": [
-    "#styleiswhat",
-    "#man",
     "#fashiondiaries",
-    "#pretty",
-    "#petitestyle",
-    "#londonblogger",
+    "#hypebeast",
     "#wearthisnext",
-    "#hypebeast"
+    "#springoutfits",
+    "#pretty",
+    "#ltkworkwear",
+    "#ltkspring",
+    "#man"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#styleiswhat",
-      "relevance": 0.4732310175895691,
-      "trend_score": 0.9757343550446999,
-      "trend_direction": "falling",
-      "historical_engagement": 0.08188509597741418,
-      "score": 0.7187435858397992
-    },
-    {
-      "hashtag": "#man",
-      "relevance": 0.5293636322021484,
-      "trend_score": 0.8212005108556832,
-      "trend_direction": "stable",
-      "historical_engagement": 0.0667103628984711,
-      "score": 0.6693566471575757
-    },
-    {
       "hashtag": "#fashiondiaries",
-      "relevance": 0.5334689021110535,
-      "trend_score": 0.8952745849297573,
+      "relevance": 0.5334689617156982,
+      "trend_score": 0.8606641123882502,
       "trend_direction": "stable",
       "historical_engagement": 0.05499672999411405,
-      "score": 0.6247533141049102
+      "score": 0.6556189089575968
+    },
+    {
+      "hashtag": "#hypebeast",
+      "relevance": 0.6187853217124939,
+      "trend_score": 0.309514687100894,
+      "trend_direction": "stable",
+      "historical_engagement": 0.06260568897664848,
+      "score": 0.6425990649749922
+    },
+    {
+      "hashtag": "#wearthisnext",
+      "relevance": 0.4578580856323242,
+      "trend_score": 0.7381864623243934,
+      "trend_direction": "rising",
+      "historical_engagement": 0.08022789489704871,
+      "score": 0.6339280637558231
+    },
+    {
+      "hashtag": "#springoutfits",
+      "relevance": 0.5320723652839661,
+      "trend_score": 0.570242656449553,
+      "trend_direction": "stable",
+      "historical_engagement": 0.06886918564696391,
+      "score": 0.6284782138709003
     },
     {
       "hashtag": "#pretty",
       "relevance": 0.5933139324188232,
-      "trend_score": 0.8033205619412516,
+      "trend_score": 0.7161558109833972,
       "trend_direction": "stable",
       "historical_engagement": 0.04121959395917453,
-      "score": 0.6127437069672619
+      "score": 0.6170841376618484
     },
     {
-      "hashtag": "#petitestyle",
-      "relevance": 0.4761490821838379,
-      "trend_score": 0.8275862068965517,
+      "hashtag": "#ltkworkwear",
+      "relevance": 0.48777249455451965,
+      "trend_score": 0.7071519795657726,
       "trend_direction": "rising",
-      "historical_engagement": 0.07106738494924725,
-      "score": 0.6022284600641672
+      "historical_engagement": 0.06934586175291313,
+      "score": 0.6047577152171346
     },
     {
-      "hashtag": "#londonblogger",
-      "relevance": 0.48828986287117004,
-      "trend_score": 0.8939974457215837,
-      "trend_direction": "falling",
-      "historical_engagement": 0.06274125774514762,
-      "score": 0.5922069735985538
-    },
-    {
-      "hashtag": "#wearthisnext",
-      "relevance": 0.45785805583000183,
-      "trend_score": 0.6743295019157088,
+      "hashtag": "#ltkspring",
+      "relevance": 0.49004802107810974,
+      "trend_score": 0.8351213282247765,
       "trend_direction": "rising",
-      "historical_engagement": 0.08022789489704871,
-      "score": 0.5768645805110184
+      "historical_engagement": 0.05824756625260667,
+      "score": 0.5868399876895974
     },
     {
-      "hashtag": "#hypebeast",
-      "relevance": 0.6187852621078491,
-      "trend_score": 0.10217113665389528,
+      "hashtag": "#man",
+      "relevance": 0.5293636322021484,
+      "trend_score": 0.4970625798212005,
       "trend_direction": "stable",
-      "historical_engagement": 0.06260568897664848,
-      "score": 0.5623122860560187
+      "historical_engagement": 0.0667103628984711,
+      "score": 0.5799403656640917
     }
   ],
   "recommended_content_type": {
@@ -89,7 +89,7 @@
     }
   },
   "predicted_engagement": {
-    "value": 0.03190186347298091,
+    "value": 0.028181680540266204,
     "unit": "engagement_rate",
     "label": "Medium"
   },
@@ -108,5 +108,5 @@
     "category_match": "matched"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:10.020417+00:00"
+  "generated_at": "2026-10-10T21:12:30.749538+00:00"
 }

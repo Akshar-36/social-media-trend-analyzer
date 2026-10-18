@@ -1,84 +1,84 @@
 {
-  "recommended_topic": "portraits",
+  "recommended_topic": "photography",
   "trending_topics": [
-    "ootdbloggers",
-    "brandambassador",
-    "inspirational"
+    "mensfashion",
+    "workout",
+    "photography"
   ],
   "recommended_hashtags": [
-    "#portraits",
     "#photography",
-    "#ootdbloggers",
-    "#brandambassador",
-    "#inspirational",
-    "#femaleentrepreneur",
     "#workout",
-    "#indianblogger"
+    "#femaleentrepreneur",
+    "#brandambassador",
+    "#mensfashion",
+    "#ootdbloggers",
+    "#asia",
+    "#savvybusinessowner"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#portraits",
-      "relevance": 0.21517197787761688,
-      "trend_score": 0.8384728340675477,
-      "trend_direction": "falling",
-      "historical_engagement": 0.06413191893750278,
-      "score": 0.8197671899831773
-    },
-    {
       "hashtag": "#photography",
-      "relevance": 0.2270786464214325,
-      "trend_score": 0.6431718061674009,
+      "relevance": 0.2270786613225937,
+      "trend_score": 0.8191189427312775,
       "trend_direction": "stable",
       "historical_engagement": 0.051457739991315,
-      "score": 0.6933871924179743
+      "score": 0.7929792324986211
+    },
+    {
+      "hashtag": "#workout",
+      "relevance": 0.2131350338459015,
+      "trend_score": 0.8540969162995595,
+      "trend_direction": "rising",
+      "historical_engagement": 0.04183427731046892,
+      "score": 0.6723528956119108
+    },
+    {
+      "hashtag": "#femaleentrepreneur",
+      "relevance": 0.24633970856666565,
+      "trend_score": 0.582540381791483,
+      "trend_direction": "rising",
+      "historical_engagement": 0.040458040301550736,
+      "score": 0.6703060931680856
+    },
+    {
+      "hashtag": "#brandambassador",
+      "relevance": 0.20925690233707428,
+      "trend_score": 0.7789867841409692,
+      "trend_direction": "rising",
+      "historical_engagement": 0.04611187058439144,
+      "score": 0.6586614242343095
+    },
+    {
+      "hashtag": "#mensfashion",
+      "relevance": 0.18761594593524933,
+      "trend_score": 0.8573274596182086,
+      "trend_direction": "rising",
+      "historical_engagement": 0.04826102801691411,
+      "score": 0.6257379075198173
     },
     {
       "hashtag": "#ootdbloggers",
       "relevance": 0.16646155714988708,
-      "trend_score": 0.9809104258443465,
+      "trend_score": 0.5879588839941263,
       "trend_direction": "stable",
       "historical_engagement": 0.06488546841577082,
-      "score": 0.6806831542477012
+      "score": 0.5584412157849576
     },
     {
-      "hashtag": "#brandambassador",
-      "relevance": 0.20925688743591309,
-      "trend_score": 0.879295154185022,
-      "trend_direction": "rising",
-      "historical_engagement": 0.04611187058439144,
-      "score": 0.6590319861226509
-    },
-    {
-      "hashtag": "#inspirational",
-      "relevance": 0.21591916680335999,
-      "trend_score": 0.8751835535976505,
-      "trend_direction": "falling",
-      "historical_engagement": 0.03497239162035635,
-      "score": 0.5907596523437786
-    },
-    {
-      "hashtag": "#femaleentrepreneur",
-      "relevance": 0.24633972346782684,
-      "trend_score": 0.28634361233480177,
-      "trend_direction": "rising",
-      "historical_engagement": 0.040458040301550736,
-      "score": 0.5545352439686798
-    },
-    {
-      "hashtag": "#workout",
-      "relevance": 0.21313506364822388,
-      "trend_score": 0.626431718061674,
-      "trend_direction": "rising",
-      "historical_engagement": 0.04183427731046892,
-      "score": 0.5510919975261327
-    },
-    {
-      "hashtag": "#indianblogger",
-      "relevance": 0.1717904508113861,
-      "trend_score": 0.8023494860499266,
+      "hashtag": "#asia",
+      "relevance": 0.1953239142894745,
+      "trend_score": 0.52287812041116,
       "trend_direction": "stable",
-      "historical_engagement": 0.05353414870823997,
-      "score": 0.5449052379874892
+      "historical_engagement": 0.05316217233262228,
+      "score": 0.5459047034798653
+    },
+    {
+      "hashtag": "#savvybusinessowner",
+      "relevance": 0.23225440084934235,
+      "trend_score": 0.5476798825256974,
+      "trend_direction": "rising",
+      "historical_engagement": 0.03353147492781829,
+      "score": 0.5400522101780078
     }
   ],
   "recommended_content_type": {
@@ -89,7 +89,7 @@
     }
   },
   "predicted_engagement": {
-    "value": 0.01868230570195858,
+    "value": 0.0190014888897556,
     "unit": "engagement_rate",
     "label": "Low"
   },
@@ -108,5 +108,5 @@
     "category_match": "fallback_all"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:09.434990+00:00"
+  "generated_at": "2026-10-10T21:12:29.769076+00:00"
 }

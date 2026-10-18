@@ -1,102 +1,102 @@
 {
-  "recommended_topic": "travelingwithkids",
+  "recommended_topic": "wanderlust",
   "trending_topics": [
-    "allaboutadventures",
-    "beautifulplaces",
-    "travelawesome"
+    "naturephotography",
+    "lifestyle",
+    "tlpicks"
   ],
   "recommended_hashtags": [
-    "#travelingwithkids",
-    "#stayandwander",
-    "#voyaged",
+    "#wanderlust",
     "#allaboutadventures",
-    "#beautifulplaces",
-    "#familytravelblogger",
-    "#travelawesome",
-    "#explorer"
+    "#instatravel",
+    "#tlpicks",
+    "#lifestyle",
+    "#outdoors",
+    "#summer",
+    "#naturephotography"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#travelingwithkids",
-      "relevance": 0.45561113953590393,
-      "trend_score": 0.8,
-      "trend_direction": "rising",
-      "historical_engagement": 0.0484502632269438,
-      "score": 0.6269193824947209
-    },
-    {
-      "hashtag": "#stayandwander",
-      "relevance": 0.3887432813644409,
-      "trend_score": 0.760352422907489,
-      "trend_direction": "falling",
-      "historical_engagement": 0.07290195830497376,
-      "score": 0.5811464326463697
-    },
-    {
-      "hashtag": "#voyaged",
-      "relevance": 0.3665664792060852,
-      "trend_score": 0.41791483113069017,
-      "trend_direction": "falling",
-      "historical_engagement": 0.10930092321190754,
-      "score": 0.5789273856415634
+      "hashtag": "#wanderlust",
+      "relevance": 0.3892539143562317,
+      "trend_score": 0.7628458498023715,
+      "trend_direction": "stable",
+      "historical_engagement": 0.058232857652260536,
+      "score": 0.7284792312615722
     },
     {
       "hashtag": "#allaboutadventures",
-      "relevance": 0.334968626499176,
-      "trend_score": 0.9903083700440528,
+      "relevance": 0.33496856689453125,
+      "trend_score": 0.6355731225296443,
       "trend_direction": "stable",
-      "historical_engagement": 0.07698990985931803,
-      "score": 0.5643414224465004
+      "historical_engagement": 0.07699264209457572,
+      "score": 0.6272290913940455
     },
     {
-      "hashtag": "#beautifulplaces",
-      "relevance": 0.3762172758579254,
-      "trend_score": 0.9797356828193833,
+      "hashtag": "#instatravel",
+      "relevance": 0.33540254831314087,
+      "trend_score": 0.7474308300395257,
       "trend_direction": "stable",
-      "historical_engagement": 0.05572295503272256,
-      "score": 0.5536824429584335
+      "historical_engagement": 0.04844922038883384,
+      "score": 0.5464206964880453
     },
     {
-      "hashtag": "#familytravelblogger",
-      "relevance": 0.43319761753082275,
-      "trend_score": 0.7773861967694566,
-      "trend_direction": "stable",
-      "historical_engagement": 0.04205932065258816,
-      "score": 0.5445298978029826
+      "hashtag": "#tlpicks",
+      "relevance": 0.2884381413459778,
+      "trend_score": 0.7976284584980237,
+      "trend_direction": "rising",
+      "historical_engagement": 0.06759101172505695,
+      "score": 0.545249383126402
     },
     {
-      "hashtag": "#travelawesome",
-      "relevance": 0.373764306306839,
-      "trend_score": 0.9186490455212922,
-      "trend_direction": "falling",
-      "historical_engagement": 0.0572975128119734,
-      "score": 0.5348751622357112
+      "hashtag": "#lifestyle",
+      "relevance": 0.29722410440444946,
+      "trend_score": 0.8150197628458498,
+      "trend_direction": "rising",
+      "historical_engagement": 0.05348461632126808,
+      "score": 0.508708421774217
     },
     {
-      "hashtag": "#explorer",
-      "relevance": 0.3953821063041687,
-      "trend_score": 0.8135095447870778,
-      "trend_direction": "falling",
-      "historical_engagement": 0.04749022044134804,
-      "score": 0.5015868657996748
+      "hashtag": "#outdoors",
+      "relevance": 0.3477001190185547,
+      "trend_score": 0.5513833992094861,
+      "trend_direction": "rising",
+      "historical_engagement": 0.05035871770580567,
+      "score": 0.4957501711723669
+    },
+    {
+      "hashtag": "#summer",
+      "relevance": 0.2889425456523895,
+      "trend_score": 0.784189723320158,
+      "trend_direction": "rising",
+      "historical_engagement": 0.052511606659538676,
+      "score": 0.4702425097920755
+    },
+    {
+      "hashtag": "#naturephotography",
+      "relevance": 0.25271546840667725,
+      "trend_score": 0.8264822134387352,
+      "trend_direction": "rising",
+      "historical_engagement": 0.06188515095856621,
+      "score": 0.4458935365016805
     }
   ],
   "recommended_content_type": {
     "value": "carousel",
     "median_relative_engagement_by_type": {
       "image": 1.0,
-      "carousel": 1.025531914893617
+      "carousel": 1.0227380439465747
     }
   },
   "predicted_engagement": {
-    "value": 0.018682305701958567,
+    "value": 0.027676396348361693,
     "unit": "engagement_rate",
-    "label": "Low"
+    "label": "Medium"
   },
   "recommended_posting_time": {
-    "day": "Thursday",
-    "start": "06:00",
-    "end": "07:00",
+    "day": "Saturday",
+    "start": "23:00",
+    "end": "00:00",
     "timezone": "UTC"
   },
   "data_basis": {
@@ -104,9 +104,9 @@
     "data_period": "2012-02-12 to 2019-05-15",
     "reference_date": "2019-05-15",
     "data_type": "historical",
-    "category": "all",
-    "category_match": "fallback_all"
+    "category": "travel",
+    "category_match": "matched"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:09.809579+00:00"
+  "generated_at": "2026-10-10T21:12:30.366223+00:00"
 }

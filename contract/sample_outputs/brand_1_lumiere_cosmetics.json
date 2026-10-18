@@ -1,84 +1,84 @@
 {
-  "recommended_topic": "makeupartistsworldwide",
+  "recommended_topic": "abhprsearch",
   "trending_topics": [
-    "toofaced",
-    "sephora",
-    "instabeauty"
+    "wakeupandmakeup",
+    "instabeauty",
+    "skincare"
   ],
   "recommended_hashtags": [
-    "#makeupartistsworldwide",
-    "#undiscoveredmuas",
-    "#colourpopme",
     "#abhprsearch",
+    "#colourpopme",
     "#instabeauty",
-    "#sephora",
-    "#cutcrease",
-    "#toofaced"
+    "#skincare",
+    "#norvina",
+    "#wakeupandmakeup",
+    "#eyebrows",
+    "#sephora"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#makeupartistsworldwide",
-      "relevance": 0.5147168040275574,
-      "trend_score": 0.5862068965517241,
-      "trend_direction": "falling",
-      "historical_engagement": 0.07006818349384798,
-      "score": 0.6931755545146385
-    },
-    {
-      "hashtag": "#undiscoveredmuas",
-      "relevance": 0.3618875741958618,
-      "trend_score": 0.5287356321839081,
-      "trend_direction": "falling",
-      "historical_engagement": 0.11039306533768502,
-      "score": 0.6448047241743873
+      "hashtag": "#abhprsearch",
+      "relevance": 0.35422343015670776,
+      "trend_score": 0.5252873563218391,
+      "trend_direction": "rising",
+      "historical_engagement": 0.09917685730189744,
+      "score": 0.6002353971493324
     },
     {
       "hashtag": "#colourpopme",
-      "relevance": 0.3704177737236023,
-      "trend_score": 0.9080459770114943,
+      "relevance": 0.3704177439212799,
+      "trend_score": 0.6741379310344828,
       "trend_direction": "rising",
       "historical_engagement": 0.07697381173539096,
-      "score": 0.6445212618708335
-    },
-    {
-      "hashtag": "#abhprsearch",
-      "relevance": 0.35422343015670776,
-      "trend_score": 0.632183908045977,
-      "trend_direction": "rising",
-      "historical_engagement": 0.09917685730189744,
-      "score": 0.6229063413103658
+      "score": 0.5985210207907949
     },
     {
       "hashtag": "#instabeauty",
       "relevance": 0.3973850607872009,
-      "trend_score": 0.9425287356321839,
+      "trend_score": 0.7471264367816093,
       "trend_direction": "rising",
       "historical_engagement": 0.053749774502655646,
-      "score": 0.59356030463985
+      "score": 0.5704719360863464
+    },
+    {
+      "hashtag": "#skincare",
+      "relevance": 0.45186716318130493,
+      "trend_score": 0.7091954022988506,
+      "trend_direction": "rising",
+      "historical_engagement": 0.04067337944258281,
+      "score": 0.568184813494735
+    },
+    {
+      "hashtag": "#norvina",
+      "relevance": 0.46865537762641907,
+      "trend_score": 0.5620689655172414,
+      "trend_direction": "stable",
+      "historical_engagement": 0.048186551039264544,
+      "score": 0.5517324752533838
+    },
+    {
+      "hashtag": "#wakeupandmakeup",
+      "relevance": 0.38379597663879395,
+      "trend_score": 0.7977011494252872,
+      "trend_direction": "stable",
+      "historical_engagement": 0.04161553328560381,
+      "score": 0.5257757387065872
+    },
+    {
+      "hashtag": "#eyebrows",
+      "relevance": 0.39854633808135986,
+      "trend_score": 0.6781609195402301,
+      "trend_direction": "rising",
+      "historical_engagement": 0.049462466056633875,
+      "score": 0.5211829554346126
     },
     {
       "hashtag": "#sephora",
       "relevance": 0.412354439496994,
-      "trend_score": 0.9540229885057471,
+      "trend_score": 0.6367816091954023,
       "trend_direction": "rising",
       "historical_engagement": 0.04515192530283448,
-      "score": 0.5807357257811062
-    },
-    {
-      "hashtag": "#cutcrease",
-      "relevance": 0.3449726700782776,
-      "trend_score": 0.47126436781609193,
-      "trend_direction": "falling",
-      "historical_engagement": 0.1012696781188409,
-      "score": 0.5648523270385107
-    },
-    {
-      "hashtag": "#toofaced",
-      "relevance": 0.37842246890068054,
-      "trend_score": 0.9885057471264368,
-      "trend_direction": "rising",
-      "historical_engagement": 0.04881993007701,
-      "score": 0.5638557304856202
+      "score": 0.5013231378905686
     }
   ],
   "recommended_content_type": {
@@ -89,7 +89,7 @@
     }
   },
   "predicted_engagement": {
-    "value": 0.026662867977067416,
+    "value": 0.026103957264634145,
     "unit": "engagement_rate",
     "label": "Medium"
   },
@@ -108,5 +108,5 @@
     "category_match": "matched"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:09.135890+00:00"
+  "generated_at": "2026-10-10T21:12:29.344741+00:00"
 }

@@ -39,9 +39,14 @@ tau: 0.34308  # Deprecated: absolute threshold replaced by calibrated margin and
 # Hashtag Engine Parameters (Phase 5c)
 candidate_pool_size: 50
 weights_hashtag:
-  - 0.333
-  - 0.333
-  - 0.334
+  - 0.50
+  - 0.30
+  - 0.20
+relevance_qualifying_ratio: 0.55
+campaign_risk_penalty: 0.80
+weights_topic:
+  - 0.60
+  - 0.40
 n_hashtags: 8
 n_topics: 3
 

@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+scikit-learn
+sentence-transformers
+pyarrow
+python-dotenv
+pyyaml
+joblib
+jsonschema
+pytz

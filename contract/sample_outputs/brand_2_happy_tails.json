@@ -1,102 +1,102 @@
 {
-  "recommended_topic": "campingwithdogs",
+  "recommended_topic": "dogsofinstagram",
   "trending_topics": [
-    "frenchbulldog",
-    "dogsthathike",
-    "catlover"
+    "dogsofinstagram",
+    "dogs",
+    "weeklyfluff"
   ],
   "recommended_hashtags": [
-    "#campingwithdogs",
-    "#dogsthathike",
-    "#frenchbulldog",
-    "#pets",
+    "#dogsofinstagram",
     "#dogs",
-    "#sustainableliving",
-    "#catlover",
-    "#pet"
+    "#weeklyfluff",
+    "#dogphotography",
+    "#mydogiscutest",
+    "#pet",
+    "#excellent_dogs",
+    "#pets"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#campingwithdogs",
-      "relevance": 0.3928920328617096,
-      "trend_score": 0.8707782672540382,
+      "hashtag": "#dogsofinstagram",
+      "relevance": 0.36017847061157227,
+      "trend_score": 0.8574074074074074,
       "trend_direction": "rising",
-      "historical_engagement": 0.07108950646181715,
-      "score": 0.8525580223867781
-    },
-    {
-      "hashtag": "#dogsthathike",
-      "relevance": 0.3752288818359375,
-      "trend_score": 0.9016152716593245,
-      "trend_direction": "falling",
-      "historical_engagement": 0.06909203208727115,
-      "score": 0.7942172271938894
-    },
-    {
-      "hashtag": "#frenchbulldog",
-      "relevance": 0.3782654106616974,
-      "trend_score": 0.9151248164464023,
-      "trend_direction": "falling",
-      "historical_engagement": 0.05484457981075629,
-      "score": 0.6962688432705983
-    },
-    {
-      "hashtag": "#pets",
-      "relevance": 0.4063897132873535,
-      "trend_score": 0.8208516886930984,
-      "trend_direction": "falling",
-      "historical_engagement": 0.04083145962308782,
-      "score": 0.6373602500869326
+      "historical_engagement": 0.054734706374502465,
+      "score": 0.8037214551239931
     },
     {
       "hashtag": "#dogs",
-      "relevance": 0.4359340965747833,
-      "trend_score": 0.504258443465492,
-      "trend_direction": "stable",
-      "historical_engagement": 0.044029367747499035,
-      "score": 0.6371503718332202
-    },
-    {
-      "hashtag": "#sustainableliving",
-      "relevance": 0.4268445074558258,
-      "trend_score": 0.5923641703377386,
+      "relevance": 0.43593406677246094,
+      "trend_score": 0.8407407407407407,
       "trend_direction": "rising",
-      "historical_engagement": 0.041199936363357934,
-      "score": 0.6192979342339997
+      "historical_engagement": 0.0474324190074017,
+      "score": 0.8023816774730386
     },
     {
-      "hashtag": "#catlover",
-      "relevance": 0.3820008635520935,
-      "trend_score": 0.8775330396475771,
-      "trend_direction": "falling",
-      "historical_engagement": 0.04115983471804047,
-      "score": 0.5862409939904427
+      "hashtag": "#weeklyfluff",
+      "relevance": 0.29563090205192566,
+      "trend_score": 0.8092592592592592,
+      "trend_direction": "stable",
+      "historical_engagement": 0.061591381574290095,
+      "score": 0.7807563904088729
+    },
+    {
+      "hashtag": "#dogphotography",
+      "relevance": 0.3189232349395752,
+      "trend_score": 0.7314814814814814,
+      "trend_direction": "rising",
+      "historical_engagement": 0.06239032615407287,
+      "score": 0.7732778571684447
+    },
+    {
+      "hashtag": "#mydogiscutest",
+      "relevance": 0.33385321497917175,
+      "trend_score": 0.7092592592592593,
+      "trend_direction": "rising",
+      "historical_engagement": 0.056902739544814535,
+      "score": 0.7269985242294077
     },
     {
       "hashtag": "#pet",
-      "relevance": 0.4142371714115143,
-      "trend_score": 0.5756240822320118,
-      "trend_direction": "stable",
-      "historical_engagement": 0.04118505163770071,
-      "score": 0.5746258404627632
+      "relevance": 0.4142371416091919,
+      "trend_score": 0.7777777777777778,
+      "trend_direction": "rising",
+      "historical_engagement": 0.042363861296695275,
+      "score": 0.7049632244294421
+    },
+    {
+      "hashtag": "#excellent_dogs",
+      "relevance": 0.3513476252555847,
+      "trend_score": 0.4777777777777778,
+      "trend_direction": "rising",
+      "historical_engagement": 0.06217098625354891,
+      "score": 0.6809820353442031
+    },
+    {
+      "hashtag": "#pets",
+      "relevance": 0.40638968348503113,
+      "trend_score": 0.6777777777777777,
+      "trend_direction": "rising",
+      "historical_engagement": 0.04531296653206923,
+      "score": 0.6763260500483973
     }
   ],
   "recommended_content_type": {
     "value": "carousel",
     "median_relative_engagement_by_type": {
       "image": 1.0,
-      "carousel": 1.025531914893617
+      "carousel": 1.005763688760807
     }
   },
   "predicted_engagement": {
-    "value": 0.01868230570195857,
+    "value": 0.02955706593949479,
     "unit": "engagement_rate",
-    "label": "Low"
+    "label": "Medium"
   },
   "recommended_posting_time": {
-    "day": "Thursday",
-    "start": "06:00",
-    "end": "07:00",
+    "day": "Monday",
+    "start": "13:00",
+    "end": "14:00",
     "timezone": "UTC"
   },
   "data_basis": {
@@ -104,9 +104,9 @@
     "data_period": "2012-02-12 to 2019-05-15",
     "reference_date": "2019-05-15",
     "data_type": "historical",
-    "category": "all",
-    "category_match": "fallback_all"
+    "category": "pet",
+    "category_match": "matched"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:09.271438+00:00"
+  "generated_at": "2026-10-10T21:12:29.538680+00:00"
 }

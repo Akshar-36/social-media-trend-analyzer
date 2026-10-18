@@ -72,11 +72,9 @@ We use strict JSON validated against `contract/input_schema.json`:
 ```json
 {
   "brand_name": "Lumiere Cosmetics",
-  "business_description": "Cruelty-free, vegan makeup brand focusing on bold eyeshadow palettes and long-lasting lipsticks.",
-  "industry": "Beauty & Cosmetics",
-  "target_audience": "Young adults, makeup enthusiasts, cruelty-free advocates",
-  "brand_tone": "Bold, empowering, vibrant",
-  "follower_count": 15000,
+  "business_description": "Cruelty-free, vegan makeup and skincare.",
+  "industry": "beauty",
+  "target_audience": "young adults interested in clean beauty",
   "timezone": "America/New_York"
 }
 ```
@@ -86,23 +84,30 @@ We use strict JSON validated against `contract/input_schema.json`:
 And here's the structured output, validated against `contract/output_schema.json`:
 ```json
 {
-  "recommended_topic": "makeupartistsworldwide",
-  "trending_topics": ["toofaced", "sephora", "instabeauty"],
+  "recommended_topic": "abhprsearch",
+  "trending_topics": [
+    "wakeupandmakeup",
+    "instabeauty",
+    "skincare"
+  ],
   "recommended_hashtags": [
-    "#makeupartistsworldwide",
-    "#undiscoveredmuas",
-    "#colourpopme",
     "#abhprsearch",
-    "#instabeauty"
+    "#colourpopme",
+    "#instabeauty",
+    "#skincare",
+    "#norvina",
+    "#wakeupandmakeup",
+    "#eyebrows",
+    "#sephora"
   ],
   "hashtag_details": [
     {
-      "hashtag": "#makeupartistsworldwide",
-      "relevance": 0.5147,
-      "trend_score": 0.5862,
-      "trend_direction": "falling",
-      "historical_engagement": 0.0701,
-      "score": 0.6932
+      "hashtag": "#abhprsearch",
+      "relevance": 0.3542,
+      "trend_score": 0.5253,
+      "trend_direction": "rising",
+      "historical_engagement": 0.0992,
+      "score": 0.6002
     }
   ],
   "recommended_content_type": {
@@ -113,7 +118,7 @@ And here's the structured output, validated against `contract/output_schema.json
     }
   },
   "predicted_engagement": {
-    "value": 0.0266,
+    "value": 0.0261,
     "unit": "engagement_rate",
     "label": "Medium"
   },
@@ -132,7 +137,7 @@ And here's the structured output, validated against `contract/output_schema.json
     "category_match": "matched"
   },
   "model_version": "v1.0",
-  "generated_at": "2026-09-27T12:11:09Z"
+  "generated_at": "2026-10-10T21:12:29Z"
 }
 ```
 
