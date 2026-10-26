@@ -1,8 +1,8 @@
-# Social Media Data/ML Recommendation Engine
+# Social Media Recommendation Engine
 
 ## Overview
 
-This is the Data/ML engine we built for our Instagram marketing SaaS. When you hand it a brand's description, it figures out what they should post about, which hashtags to use, whether an image or carousel will work better, when to post, and what kind of engagement to expect. 
+This is the engine we built for our Instagram marketing SaaS. When you hand it a brand's description, it figures out what they should post about, which hashtags to use, whether an image or carousel will work better, when to post, and what kind of engagement to expect. 
 
 We didn't want an LLM just guessing at these things, so all of these recommendations are grounded in historical Instagram data. The LLM still writes the actual caption, but this engine makes sure it's working from a real, data-backed foundation.
 
