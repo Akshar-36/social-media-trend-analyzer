@@ -3,6 +3,7 @@ import json
 import logging
 from datetime import datetime, timezone
 import pandas as pd
+import numpy as np
 import yaml
 import jsonschema
 import joblib
@@ -33,6 +34,14 @@ class RecommenderPipeline:
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
         
         self.trends_df = pd.read_parquet(os.path.join(PROJECT_ROOT, 'artifacts/v1.0/trends.parquet'))
+        w = self.config.get('weights_trend')
+        if w is not None and all(col in self.trends_df.columns for col in ['frequency', 'growth', 'engagement', 'recency']):
+            self.trends_df['trend_score'] = (
+                w[0] * self.trends_df['frequency'] +
+                w[1] * self.trends_df['growth'] +
+                w[2] * self.trends_df['engagement'] +
+                w[3] * self.trends_df['recency']
+            )
         
         with open(os.path.join(PROJECT_ROOT, 'artifacts/v1.0/category_centroids.pkl'), 'rb') as f:
             self.centroids = joblib.load(f)
@@ -73,14 +82,18 @@ class RecommenderPipeline:
             )
             
             # 1. Mapped Category
-            # We must use predict_category to also get category_match
-            best_cat, best_score, match_type = predict_category(brand_text, self.model, self.centroids, self.config['tau'])
+            best_cat, best_score, match_type = predict_category(
+                brand_text,
+                self.model,
+                self.centroids,
+                margin=self.config.get('relevance_margin', 0.010),
+                floor=self.config.get('relevance_floor', 0.250)
+            )
             
             # 2. Hashtags Candidates
-            # get_candidates_for_brand actually predicts category internally again, but it uses the exact same logic.
-            # We'll pass the text and it will map. 
+            # Pass resolved category directly to eliminate redundant embedding and conflicting prediction
             candidates, _ = get_candidates_for_brand(
-                brand_text, self.trends_df, self.h_emb_df, self.centroids, self.model, self.config
+                brand_text, self.trends_df, self.h_emb_df, self.centroids, self.model, self.config, resolved_category=best_cat
             )
             
             # 3. Hashtags History & Ranking
@@ -89,18 +102,59 @@ class RecommenderPipeline:
                 hist_eng = calculate_historical_engagement(best_cat, candidate_hashtags, self.history_df)
                 candidates = candidates.merge(hist_eng, on='hashtag', how='left')
                 candidates['historical_engagement'] = candidates['historical_engagement'].fillna(0.0)
-                ranked_hashtags = rank_hashtags(candidates, self.config)
+                ranked_hashtags = rank_hashtags(candidates, self.config, category=best_cat)
             else:
                 ranked_hashtags = pd.DataFrame()
 
             if not ranked_hashtags.empty:
-                top_n = ranked_hashtags.head(self.config['n_hashtags'])
+                # Direction eligibility filtering: exclude falling hashtags before selecting recommendations
+                eligible_candidates = ranked_hashtags[ranked_hashtags['trend_direction'] != 'falling']
+                if not eligible_candidates.empty:
+                    active_candidates = eligible_candidates
+                else:
+                    # Safe fallback to all candidates if all are falling
+                    active_candidates = ranked_hashtags
+
+                top_n = active_candidates.head(self.config['n_hashtags'])
                 
-                # Trending topics: top n_topics by trend_score
-                trending_df = top_n.sort_values('trend_score', ascending=False).head(self.config['n_topics'])
+                # Separate topic selection from raw hashtag ranking:
+                # Topics represent post theme angles and are selected from top_n candidates
+                # (ensuring all surfaced topics have matching hashtag_details records),
+                # prioritizing topical candidates over campaign risk tags.
+                if 'campaign_risk' in top_n.columns:
+                    topical_candidates = top_n[~top_n['campaign_risk']]
+                    if topical_candidates.empty:
+                        topical_candidates = top_n
+                else:
+                    topical_candidates = top_n
+
+                topical_candidates = topical_candidates.copy()
+
+                def min_max_norm(series):
+                    if series.max() == series.min():
+                        return np.zeros(len(series))
+                    return (series - series.min()) / (series.max() - series.min())
+
+                norm_rel = min_max_norm(topical_candidates['relevance'])
+                norm_trend = min_max_norm(topical_candidates['trend_score'])
+
+                # Apply separate ranking weights to fallback_all results so global trend scores cannot dominate relevance.
+                if best_cat == 'all' or (isinstance(best_cat, str) and 'fallback' in best_cat):
+                    weights_topic = self.config.get('weights_topic_fallback', [0.80, 0.20])
+                else:
+                    weights_topic = self.config.get('weights_topic', [0.60, 0.40])
+
+                topical_candidates['topic_score'] = (
+                    weights_topic[0] * norm_rel +
+                    weights_topic[1] * norm_trend
+                )
+
+                topical_sorted = topical_candidates.sort_values('topic_score', ascending=False)
+                recommended_topic = topical_sorted.iloc[0]['hashtag'].replace('#', '')
+
+                trending_df = topical_sorted.head(self.config['n_topics'])
                 trending_topics = [h.replace('#', '') for h in trending_df['hashtag'].tolist()]
                 
-                recommended_topic = top_n.iloc[0]['hashtag'].replace('#', '')
                 recommended_hashtags = top_n['hashtag'].tolist()
                 
                 hashtag_details = []
