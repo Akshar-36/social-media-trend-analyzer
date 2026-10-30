@@ -1,0 +1,37 @@
+# Git and IDE metadata
+.git
+.gitignore
+.vscode
+.idea
+
+# Python virtual environments & build artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Research, Exploratory Notebooks & Audits
+experiments/
+notebooks/
+scratch/
+DATA_ML_MASTER_TECHNICAL_AUDIT.md
+*.ipynb
+
+# Raw & interim datasets (offline training data)
+data/
+
+# Environment files & secrets
+.env
+.env.*
+*.log
